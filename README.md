@@ -4,13 +4,13 @@
 
 Beautifully format your Anki cards with **Computer Modern Bright** for body text and **Computer Modern Typewriter Light** for code/monospace. 
 
-This repo packages the corresponding font (`.ttf`) files and a CSS styling snippet for applying these fonts to Anki your Anki cards. Keep reading for a tutorial on how to apply this formatting to your Anki note types.
+This repo packages the corresponding font (`.ttf`) files and a CSS styling snippet for applying these fonts to your Anki cards. Keep reading for a tutorial on how to apply this formatting to your Anki note types.
 
 ## Tutorial (Anki Desktop)
 
 1. **Add font files to Anki media folder**
     
-    Put the `.ttf` files from this repo’s `fonts/` folder into your Anki profile’s `collection.media` folder:
+    Copy the `.ttf` files from this repo’s `fonts/` folder into your Anki profile’s `collection.media` folder:
     
     - Linux: `~/.local/share/Anki2/<YourProfile>/collection.media`
     - macOS: `~/Library/Application Support/Anki2/<YourProfile>/collection.media`
@@ -24,21 +24,19 @@ This repo packages the corresponding font (`.ttf`) files and a CSS styling snipp
     
     ![image.png](images/image.png)
     
-    Then select the note type who’s styling you’d like to change (e.g. Basic) → *Cards*.
+    Now select the note type whose cards' styling you’d like to change (e.g. Basic), then click *Cards*.
     
     ![image.png](images/image%201.png)
     
-    Navigate to *Styling* (click on the radio dial).
+    Under the *Card Type* drop down, select the card type you're interested in (e.g. the *Front->Back* for the *Basic* note type). Then, navigate to *Styling* by clicking corresponding radio dial.
     
     ![image.png](images/image%202.png)
     
-    Anki cards are displayed as rendered HTML. This is where the CSS styling for the cards’ HTML code lives. Copy the CSS code from `anki-cmu.css` into the text box here and click *Save*.
-    
 3. **Change CSS styling to apply fonts**
     
-    Anki cards are displayed as rendered HTML, styled by CSS. In the last step, you opened the window the CSS styling for the cards’ HTML code lives.
+    Anki cards are displayed as rendered HTML, styled by CSS. In the last step, you opened the window where the CSS styling for this card type's HTML code lives.
     
-    Change the font-family parameter (e.g. `arial`) to `‘Computer Modern Bright'` .
+    Change the `font-family` parameter (e.g. `arial`) to `‘cmu-bright'`.
     
     Now copy the CSS code snippet from `css/anki-cmu.css` into the top of this text box, without deleting the other formatting (e.g. `.card{…}` or `.cloze{…}`).
     
@@ -56,11 +54,11 @@ This repo packages the corresponding font (`.ttf`) files and a CSS styling snipp
     
     ![image.png](images/image%205.png)
     
-    To check other formatting changes, though (e.g. boldface, italic, formatting for `<code>` tags), you’ll have to add cards and preview changes.
+    To check other formatting changes, however, (e.g. boldface, italic, formatting for `<code>` tags), you’ll have to add cards and preview changes.
     
 4. **Save — add notes**
     
-    Click *Save* and you’re done. New and existing notes of the altered note type should now appear with the desired fonts.
+    Click *Save* and you’re done. New and existing notes of the altered card type should now appear with the desired fonts.
     
 
 ### Notes and FAQs
@@ -83,10 +81,10 @@ This repo packages the corresponding font (`.ttf`) files and a CSS styling snipp
 > **No warranty:** This repository is provided “AS IS”, without warranty of any kind.
 > 
 
-**Fonts**
+#### Fonts
 
 All fonts in this repo are under **SIL Open Font License 1.1 (OFL‑1.1)**. These CMU fonts are authored/compiled from Andrey V. Panov’s **Computer Modern Unicode** project (OFL‑1.1). The OFL allows bundling/redistribution (not selling the fonts by themselves) and requires keeping the fonts under OFL; it also enforces Reserved Font Names for modified versions.
 
-**Everything else**
+#### Everything else
 
 Aside from the `.ttf` font files, everything in this repository is under the [WTFPL v2](https://www.wtfpl.net/) license (see: `LICENSE`). This is a maximally permissive license — feel no compunction, do as you please! This project is merely here to spare you some tedium.
