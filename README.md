@@ -73,7 +73,7 @@ These render well on screens and complement LaTeX/MathJax/KaTeX expressions.
     Click *Save* and you’re done. New and existing notes of the altered card type should now appear with the desired fonts.
     
 
-### Notes and FAQs
+## Notes and FAQs
 
 - **Will this sync to mobile?** Yes.
 - **Other fonts?** Anki takes `.ttf` font formats, among others. For other Computer Modern fonts, you can source the `.ttf` files from Christian Lawson-Perfect’s GitHub repo: [https://github.com/dominictarr/computer-modern/tree/master](https://github.com/dominictarr/computer-modern/tree/master). See his helpful website [Using Computer Modern on the Web](https://www.checkmyworking.com/cm-web-fonts/) for more information. To use these fonts in Anki, simply pattern match on the tutorial above and change the CSS code accordingly.
@@ -83,13 +83,13 @@ These render well on screens and complement LaTeX/MathJax/KaTeX expressions.
     - Installing fonts: [https://docs.ankiweb.net/templates/styling.html#installing-fonts](https://docs.ankiweb.net/templates/styling.html#installing-fonts)
 - **Attribution:** This repo merely repackages the CM Bright and CM Typewriter Light fonts, along with a CSS snippet and instructions on how to use these in Anki. See `ATTRIBUTION.md` for detailed credits on the development of these fonts.
 
-### License
+## License
 
-#### Fonts in `fonts/`
+### Fonts in `fonts/`
 
 All fonts in this repo are under **SIL Open Font License 1.1 (OFL‑1.1)**. These CMU fonts are authored/compiled from Andrey V. Panov’s **Computer Modern Unicode** project (OFL‑1.1). 
 
-#### Everything else
+### Everything else
 
 Aside from the `.ttf` font files, everything in this repository (i.e. docs and CSS code) is under the [WTFPL v2](https://www.wtfpl.net/) license (see: `LICENSE`). This is a maximally permissive license — feel no compunction, do as you please! This project is merely here to spare you some tedium.
 
