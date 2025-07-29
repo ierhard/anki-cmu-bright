@@ -1,0 +1,66 @@
+/* === FONTS === */
+
+/* Load the main font: Computer Modern Bright (regular style) */
+@font-face {
+    font-family: cmu-bright;
+    src: url('_cmunbmr.ttf');
+    font-weight: normal;  /* For normal (non-bold) text */
+    font-style: normal;   /* For regular (non-italic) text */
+}
+
+/* Bold version of Computer Modern Bright */
+@font-face {
+    font-family: cmu-bright;
+    src: url('_cmunbbx.ttf');
+    font-weight: bold;    /* Used when text is bold */
+    font-style: normal;
+}
+
+/* Italic version of Computer Modern Bright */
+@font-face {
+    font-family: cmu-bright;
+    src: url('_cmunbmo.ttf');
+    font-weight: normal;
+    font-style: italic;   /* Used when text is italic */
+}
+
+/* Bold italic version of Computer Modern Bright */
+@font-face {
+    font-family: cmu-bright;
+    src: url('_cmunbxo.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* Load the monospace font: Computer Modern Typewriter Light */
+
+/* Regular style */
+@font-face {
+    font-family: cmu-typewriter-light;
+    src: url('_cmunbtl.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Italic style */
+@font-face {
+    font-family: cmu-typewriter-light;
+    src: url('_cmunbto.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/* === MONOSPACED TEXT STYLING === */
+
+/* Use Computer Modern Typewriter Light for all code-related elements */
+code,
+pre,
+kbd,
+samp {
+    font-family: cmu-typewriter-light, monospace;
+}
+
+
+/* === MAIN CARD LAYOUT === */
