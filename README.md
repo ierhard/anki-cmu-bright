@@ -9,12 +9,12 @@ Beautifully format your Anki cards with **Computer Modern** fonts:
 
 These render well on screens and complement LaTeX/MathJax/KaTeX expressions. 
 
-This repo:
+**This repo:**
 
 1. Packages the font (`.ttf`) files and a corresponding CSS styling snippet.
 2. Gives a brief tutorial &mdash; see below &mdash; on how to use the files in (1) to apply these fonts to your Anki cards.
 
-**Example:**
+**Example card:**
 
 ![Anki card example](images/anki-card-example.png)
 
