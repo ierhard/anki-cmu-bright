@@ -1,8 +1,8 @@
 # README.md
 
-# CMU Bright & Typewriter Light for Anki (TTF + CSS)
+# Computer Modern fonts for Anki
 
-Beautifully format your Anki cards with **Computer Modern Bright** for body text and **Computer Modern Typewriter Light** for code/monospace. 
+Beautifully format your Anki cards with **Computer Modern** fonts: **CM Bright** for body text and **CM Typewriter Light** for code/monospace. These render well on screens and complement LaTeX/MathJax/KaTeX expressions. 
 
 This repo packages the corresponding font (`.ttf`) files and a CSS styling snippet for applying these fonts to your Anki cards. Keep reading for a tutorial on how to apply this formatting to your Anki note types.
 
