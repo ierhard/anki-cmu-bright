@@ -85,18 +85,12 @@ These render well on screens and complement LaTeX/MathJax/KaTeX expressions.
 
 ### License
 
-> **At a glance**
-> 
-> - **Fonts in `fonts/`**: **SIL Open Font License 1.1 (OFL‑1.1)** — see: `fonts/OFL.txt`.
-> - **Everything else in this repo** (e.g. CSS, README): **WTFPL v2** — see: `LICENSE`.
-> 
-> **No warranty:** This repository is provided “AS IS”, without warranty of any kind.
-> 
+#### Fonts in `fonts/`
 
-#### Fonts
-
-All fonts in this repo are under **SIL Open Font License 1.1 (OFL‑1.1)**. These CMU fonts are authored/compiled from Andrey V. Panov’s **Computer Modern Unicode** project (OFL‑1.1). The OFL allows bundling/redistribution (not selling the fonts by themselves) and requires keeping the fonts under OFL; it also enforces Reserved Font Names for modified versions.
+All fonts in this repo are under **SIL Open Font License 1.1 (OFL‑1.1)**. These CMU fonts are authored/compiled from Andrey V. Panov’s **Computer Modern Unicode** project (OFL‑1.1). See `fonts/OFL` and `fonts/OFL-FAQ`. 
 
 #### Everything else
 
-Aside from the `.ttf` font files, everything in this repository is under the [WTFPL v2](https://www.wtfpl.net/) license (see: `LICENSE`). This is a maximally permissive license — feel no compunction, do as you please! This project is merely here to spare you some tedium.
+Aside from the `.ttf` font files, everything in this repository (i.e. docs and CSS code) is under the [WTFPL v2](https://www.wtfpl.net/) license (see: `LICENSE`). This is a maximally permissive license — feel no compunction, do as you please! This project is merely here to spare you some tedium.
+
+> **No warranty:** This repository is provided “AS IS”, without warranty of any kind.
