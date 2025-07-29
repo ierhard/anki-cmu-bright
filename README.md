@@ -15,6 +15,7 @@ This repo:
 2. Gives a brief tutorial &mdash; see below &mdash; on how to use the files in (1) to apply these fonts to your Anki cards.
 
 **Example:**
+
 ![Anki card example](images/anki-card-example.png)
 
 ## Tutorial (Anki Desktop)
