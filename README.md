@@ -6,6 +6,9 @@ Beautifully format your Anki cards with **Computer Modern Bright** for body text
 
 This repo packages the corresponding font (`.ttf`) files and a CSS styling snippet for applying these fonts to your Anki cards. Keep reading for a tutorial on how to apply this formatting to your Anki note types.
 
+**Example:**
+![Anki card example](images/anki-card-example.png)
+
 ## Tutorial (Anki Desktop)
 
 1. **Add font files to Anki media folder**
