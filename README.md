@@ -2,7 +2,7 @@
 
 # Computer Modern fonts for Anki
 
-Beautifully format your Anki cards with **Computer Modern** fonts: 
+Beautifully format your Anki cards with **Computer Modern** (CM) fonts: 
 
 - **CM Bright** for body text
 - **CM Typewriter Light** for code/monospace
@@ -87,10 +87,10 @@ These render well on screens and complement LaTeX/MathJax/KaTeX expressions.
 
 #### Fonts in `fonts/`
 
-All fonts in this repo are under **SIL Open Font License 1.1 (OFL‑1.1)**. These CMU fonts are authored/compiled from Andrey V. Panov’s **Computer Modern Unicode** project (OFL‑1.1). See `fonts/OFL` and `fonts/OFL-FAQ`. 
+All fonts in this repo are under **SIL Open Font License 1.1 (OFL‑1.1)**. These CMU fonts are authored/compiled from Andrey V. Panov’s **Computer Modern Unicode** project (OFL‑1.1). 
 
 #### Everything else
 
 Aside from the `.ttf` font files, everything in this repository (i.e. docs and CSS code) is under the [WTFPL v2](https://www.wtfpl.net/) license (see: `LICENSE`). This is a maximally permissive license — feel no compunction, do as you please! This project is merely here to spare you some tedium.
 
-> **No warranty:** This repository is provided “AS IS”, without warranty of any kind.
+**No warranty:** This repository is provided “AS IS”, without warranty of any kind.
